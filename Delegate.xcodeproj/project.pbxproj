@@ -18,6 +18,8 @@
 		C4FB8FF816DA7DD80007B70D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4FB8FF716DA7DD80007B70D /* Default-568h@2x.png */; };
 		C4FB8FFB16DA7DD80007B70D /* BFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FB8FFA16DA7DD80007B70D /* BFViewController.m */; };
 		C4FB8FFE16DA7DD80007B70D /* BFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4FB8FFC16DA7DD80007B70D /* BFViewController.xib */; };
+		C4FB900716DA7DF80007B70D /* BFMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FB900516DA7DF70007B70D /* BFMenuViewController.m */; };
+		C4FB900816DA7DF80007B70D /* BFMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4FB900616DA7DF80007B70D /* BFMenuViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		C4FB8FF916DA7DD80007B70D /* BFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BFViewController.h; sourceTree = "<group>"; };
 		C4FB8FFA16DA7DD80007B70D /* BFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFViewController.m; sourceTree = "<group>"; };
 		C4FB8FFD16DA7DD80007B70D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BFViewController.xib; sourceTree = "<group>"; };
+		C4FB900416DA7DF70007B70D /* BFMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFMenuViewController.h; sourceTree = "<group>"; };
+		C4FB900516DA7DF70007B70D /* BFMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFMenuViewController.m; sourceTree = "<group>"; };
+		C4FB900616DA7DF80007B70D /* BFMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BFMenuViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +93,9 @@
 				C4FB8FF916DA7DD80007B70D /* BFViewController.h */,
 				C4FB8FFA16DA7DD80007B70D /* BFViewController.m */,
 				C4FB8FFC16DA7DD80007B70D /* BFViewController.xib */,
+				C4FB900416DA7DF70007B70D /* BFMenuViewController.h */,
+				C4FB900516DA7DF70007B70D /* BFMenuViewController.m */,
+				C4FB900616DA7DF80007B70D /* BFMenuViewController.xib */,
 				C4FB8FE816DA7DD80007B70D /* Supporting Files */,
 			);
 			path = Delegate;
@@ -164,6 +172,7 @@
 				C4FB8FF616DA7DD80007B70D /* Default@2x.png in Resources */,
 				C4FB8FF816DA7DD80007B70D /* Default-568h@2x.png in Resources */,
 				C4FB8FFE16DA7DD80007B70D /* BFViewController.xib in Resources */,
+				C4FB900816DA7DF80007B70D /* BFMenuViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +186,7 @@
 				C4FB8FEE16DA7DD80007B70D /* main.m in Sources */,
 				C4FB8FF216DA7DD80007B70D /* BFAppDelegate.m in Sources */,
 				C4FB8FFB16DA7DD80007B70D /* BFViewController.m in Sources */,
+				C4FB900716DA7DF80007B70D /* BFMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

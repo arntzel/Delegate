@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BFMenuViewController.h"
 
-@interface BFViewController : UIViewController
+@interface BFViewController : UIViewController<BFMenuViewControllerDelegate>
+
+@property (strong, nonatomic) BFMenuViewController *menuVC;
+
+- (IBAction)pushToMenu:(UIButton *)sender;
 
 @end

@@ -8,7 +8,7 @@
 
 #import "BFViewController.h"
 
-@interface BFViewController ()
+@interface BFViewController () 
 
 @end
 
@@ -18,6 +18,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    //need to initialize viewcontrollers with nib file.
+    _menuVC = [[BFMenuViewController alloc] initWithNibName:@"BFMenuViewController" bundle:nil];
+    _menuVC.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +29,14 @@
     // Dispose of any resources that can be recreated.
 }
 
-@end
+#pragma mark - BFMenuViewControllerDelegate
+
+-(void)menuButtonPressed{
+    NSLog(@"Delegate method called");
+}
+
+- (IBAction)pushToMenu:(UIButton *)sender {
+    //presents a viewcontroller instance
+    [self presentViewController:_menuVC animated:YES completion:nil];
+}
+@end;
